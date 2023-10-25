@@ -1,25 +1,25 @@
-1. Compare and contrast arrays and linked lists. Provide scenarios where one is more advantageous than the other.@
-2. Explain the concept of circular linked lists. Provide an example of how they can be used in real-world applications.@
-3. Describe the implementation and advantages of a doubly linked list over a singly linked list.@
-4. Explain the concept of postfix notation and how it can be evaluated using a stack.@
-5. Compare depth-first search (DFS) and breadth-first search (BFS) algorithms. Provide scenarios where each algorithm is suitable.@
-6. Discuss the concept of a spanning tree in graph theory. How is it different from the original graph?@
-7. Implement the quicksort algorithm for sorting an array. Explain the algorithm and analyze its time complexity.@
-8. Explain the concept of graph traversal using topological sorting. Provide an example where topological sorting is useful.@
-9. Describe the concept of tries in data structures. How are they different from regular trees, and what are their applications?@
-10. Implement the merge sort algorithm for sorting an array. Explain the algorithm and analyze its time complexity.@
-11. Discuss the concept of hashing and various collision resolution techniques. Compare open addressing and separate chaining.@
-12. Explain the concept of Red-Black trees. How are they balanced, and what are their advantages in terms of searching and insertion?@
-13. Describe the concept of disjoint-set data structures (union-find). How can they be used to detect cycles in a graph?@
-14. Implement a binary search tree (BST) and perform the deletion operation on a node. Explain the deletion algorithm and its complexities.@
-15. Discuss the concept of Huffman coding and how it is used in data compression. Provide an example to illustrate Huffman coding.@
-16. Explain the concept of B+ trees. How are they different from B-trees, and what are their advantages in database applications?@
-17. Describe the concept of dynamic programming and its applications in solving problems related to data structures.@
-18. Discuss the concept of skip lists. How are they implemented, and what are their advantages in terms of searching and insertion?@
-19. Explain the concept of graph isomorphism. How is it useful in various graph-related problems?@
-20. Describe the concept of splay trees. How are they self-adjusting, and what are their advantages in dynamic data storage?@
-21. Discuss the concept of minimum spanning trees (MST) and the algorithms used to find them, such as Prim's and Kruskal's algorithms.@
-22. Explain the concept of tries in the context of text autocomplete systems. How can tries be efficiently used to suggest word completions?@
-23. Describe the concept of suffix trees and their applications in string matching algorithms, such as pattern searching.@
-24. Discuss the concept of segment trees. How are they used for efficient range query operations in various applications?@
-25. Explain the concept of bloom filters. How are they implemented, and what are their advantages and limitations in terms of set membership testing?@
+1. Compare and contrast arrays and linked lists. Provide scenarios where one is more advantageous than the other.
+2. Explain the concept of circular linked lists. Provide an example of how they can be used in real-world applications.
+3. Describe the implementation and advantages of a doubly linked list over a singly linked list.
+4. Explain the concept of postfix notation and how it can be evaluated using a stack.
+5. Compare depth-first search (DFS) and breadth-first search (BFS) algorithms. Provide scenarios where each algorithm is suitable.
+6. Discuss the concept of a spanning tree in graph theory. How is it different from the original graph?
+7. Implement the quicksort algorithm for sorting an array. Explain the algorithm and analyze its time complexity.
+8. Explain the concept of graph traversal using topological sorting. Provide an example where topological sorting is useful.
+9. Describe the concept of tries in data structures. How are they different from regular trees, and what are their applications?
+10. Implement the merge sort algorithm for sorting an array. Explain the algorithm and analyze its time complexity.
+11. Discuss the concept of hashing and various collision resolution techniques. Compare open addressing and separate chaining.
+12. Explain the concept of Red-Black trees. How are they balanced, and what are their advantages in terms of searching and insertion?
+13. Describe the concept of disjoint-set data structures (union-find). How can they be used to detect cycles in a graph?
+14. Implement a binary search tree (BST) and perform the deletion operation on a node. Explain the deletion algorithm and its complexities.
+15. Discuss the concept of Huffman coding and how it is used in data compression. Provide an example to illustrate Huffman coding.
+16. Explain the concept of B+ trees. How are they different from B-trees, and what are their advantages in database applications?
+17. Describe the concept of dynamic programming and its applications in solving problems related to data structures.
+18. Discuss the concept of skip lists. How are they implemented, and what are their advantages in terms of searching and insertion?
+19. Explain the concept of graph isomorphism. How is it useful in various graph-related problems?
+20. Describe the concept of splay trees. How are they self-adjusting, and what are their advantages in dynamic data storage?
+21. Discuss the concept of minimum spanning trees (MST) and the algorithms used to find them, such as Prim's and Kruskal's algorithms.
+22. Explain the concept of tries in the context of text autocomplete systems. How can tries be efficiently used to suggest word completions?
+23. Describe the concept of suffix trees and their applications in string matching algorithms, such as pattern searching.
+24. Discuss the concept of segment trees. How are they used for efficient range query operations in various applications?
+25. Explain the concept of bloom filters. How are they implemented, and what are their advantages and limitations in terms of set membership testing?
