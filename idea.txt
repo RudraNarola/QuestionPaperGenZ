@@ -1,0 +1,19 @@
+1. first there are 3 file according to difficulty level, each havin 25 question
+2. user will enter how many question he want in each difficulty level 
+
+// how we will implement it
+
+1. Scan the no of quesion at each difficulty level
+2. According to the number we'll read all files
+3. Create random number vector for each difficulty level
+4. 
+5. Create a quesion paper according to Nirma Uni format
+ 
+
+//Additional features
+
+1. Provide a word file format for the generated question
+
+
+3 array 25
+random index store

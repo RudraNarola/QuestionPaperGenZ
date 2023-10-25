@@ -1,0 +1,26 @@
+1. What is a data structure?
+2. Define an array and explain its limitations.
+3. What is a linked list? Explain its types.
+4. What is a stack? Explain its operations with examples.
+5. Define a queue and explain its types.
+6. Explain the concept of recursion in data structures.
+7. What is a binary tree? Explain its properties.
+8. Explain the difference between depth-first search (DFS) and breadth-first search (BFS) algorithms.
+9. Define hashing and explain collision resolution techniques.
+10. What is a graph? Explain its representation methods.
+11. Explain the concept of time complexity in algorithms.
+12. What is a sorting algorithm? Explain the bubble sort algorithm.
+13. Explain the insertion sort algorithm with an example.
+14. What is a searching algorithm? Explain linear search.
+15. Define divide and conquer strategy in algorithms.
+16. Explain the concept of dynamic programming in algorithms.
+17. What is a priority queue? Explain its implementation.
+18. Define AVL tree and explain its balancing operations.
+19. Explain the concept of heaps and heap sort algorithm.
+20. What is a hash table? Explain its operations.
+21. Explain the concept of graph traversal algorithms.
+22. Define Dijkstra's algorithm and explain its working.
+23. Explain the concept of Huffman coding.
+24. What are B-trees? Explain their properties and applications.
+25. Define trie and explain its use in string searching.
+
