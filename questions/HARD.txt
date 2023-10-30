@@ -1,0 +1,38 @@
+Write a algorithm for a Binary Search and discuss it time and space complexity?
+Justify the need of hashing. Discuss any two techniques with a proper example?
+Write a program to implement priority queue using array of linked list?
+Convert the following Postfix expression to the Prefix expression using stack?
+Explain how to implement a B+ tree and its advantages over other tree data structures?
+What is the time complexity of the most efficient algorithm for finding the shortest path in a graph?
+Write an algorithm for quick sort and explain with suitable example?
+Write an algorithm to find that given tree is BST or not? 
+Write an algorithm to perform to insertion and deletion middle of linked list?
+Write an algorithm to solve the Tower to Hanoi problem?
+Write an algorithm for insertion, deletion in doubly linked-list?
+Write an algorithm to reverse a doubly linked list?
+Define B-tree ? Construct a B-tree for following element {10, 20, 30, 40, 50, 60} (Show steps of insertion)?
+Define Binary tree . Find a post-order traversal from given Inorder traversal?
+Define Minimum Spanning Tree and explain in detail?
+Discuss the advantages of Binary threaded tree over the binary tree and explain the construction of Binary Threaded Tree with example?
+Discuss the searching algorithm of Graph Data-structure?
+Consider a 3-dimensional array A[2:8, -3:6, 5:10]. The base address of the array is 1000 and the memory required by each element is 2 bytes. Find the address of A[3, 1, 61] using row major representation.Show all the intermediate steps.
+What is Binary Search Tree(BST)? Construct a BST by inserting the following elements in given order. Show all the intermediate steps. {5, 9, 1, 10, 15, 12, 2, 6, 20, 4, 14, 24 
+Write a recursive algorithm for binary search technique to search an element in a given sorted list. Also show the tracing of your algorithm to search an element 9 in the following data.{ 3, 5, 9,12, 17, 23, 36, 53, 65, 78}.	
+Sort the following data in ascending order using heap sort algorithm. Show all the intermediate steps. {43, 32, 11, 53, 76, 90, 39, 59, 97, 20, 84, 66}
+How can you efficiently find the median of a set of data using data structures?
+Draw a binary expression tree from the given infix expression, Write the pre-order and post-order from the constructed binary expression tree (a*b/c+e/f*g+k-x*y).
+State applications of minimum spanning tree (MST)?
+Differentiate between a linked list and an array.
+Write an algorithm to insert an element at a given position in the doubly linked list.
+What is a van Emde Boas tree, and what are its applications in data structures?
+Describe the concept of a B-tree and its use in database systems.
+How can you implement a priority queue using a binary heap?
+Explain the concept of a binary search algorithm and its use in searching.
+What is the significance of a directed acyclic graph (DAG) in real-world applications?
+Describe the use of stacks in expression evaluation.
+How can you efficiently implement a dictionary using a hash table?
+Explain the concept of a linked list's applications in managing large datasets.
+What is the importance of a red-black tree in maintaining balanced data?
+How does a depth-first search algorithm work in finding connected components in a graph?
+Describe the role of a binary search tree in maintaining sorted data.
+What is the use of queues in real-world scenarios, and how do they facilitate efficient data processing?

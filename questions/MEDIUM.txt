@@ -1,0 +1,38 @@
+What is the difference between an array and a linked list, and when would you choose one over the other?
+Explain the concept of a circular buffer and its applications.
+Describe how a stack can be implemented using an array or a linked list.
+What are the advantages of using a doubly linked list over a singly linked list?
+Explain how a priority queue is different from a regular queue.
+What is the purpose of a hash function in a hash table, and how does it affect collision resolution?
+How does a binary search tree maintain its balance, and what is its time complexity for various operations?
+What is the role of recursion in tree traversal algorithms?
+Describe the difference between an in-order and a post-order traversal of a binary tree.
+Explain how a linked list can be reversed using iterative and recursive methods.
+What are the advantages and limitations of using a dynamic array?
+How does a breadth-first search algorithm work in traversing a graph?
+Describe the concept of a self-balancing binary search tree and its importance in maintaining balance.
+What is the time complexity of finding the kth smallest element in a binary search tree?
+Explain how a hash table handles collision resolution using open addressing.
+What is the concept of a circular queue, and how is it implemented?
+How can you efficiently merge two sorted arrays into a single sorted array?
+Describe the use of a trie data structure in autocomplete systems.
+Explain the concept of a binary heap and its applications in priority queues.
+What is the purpose of a binary search tree's in-order successor and predecessor?
+How can you implement a stack using two queues, and why would you do so?
+Describe the importance of balancing binary search trees in database indexing.
+What is a red-black tree, and how does it maintain balance in a binary search tree?
+Explain the concept of a skip list and its advantages in search and insertion operations.
+How does a depth-first search algorithm work in traversing a graph?
+Describe the use of a heap data structure in sorting algorithms.
+What is a trie's space complexity, and how can it be optimized for practical applications?
+Explain the concept of a disjoint-set data structure and its applications in graph theory.
+How do you efficiently find the lowest common ancestor of two nodes in a binary tree?
+Describe the use of binary search trees in dictionary implementations.
+What is the time complexity of searching in a balanced binary search tree?
+How can you implement a queue using two stacks, and why would you do so?
+Explain the concept of a splay tree and its applications in data structures.
+What is the concept of a topological sort in a directed acyclic graph, and how is it calculated?
+Describe the purpose of a linked list node and its role in various data structures.
+How does a breadth-first search algorithm work in finding the shortest path in a graph?
+What is a self-balancing binary search tree, and how does it maintain balance?
+Explain how a hash table handles collision resolution using chaining.

@@ -1,0 +1,49 @@
+What is a data structure?Define an array.
+What is a linked list?
+Explain the concept of a stack.
+Describe the characteristics of a queue.
+What is a tree in data structures?
+Define a binary tree.
+What is the root node in a tree?
+Explain the concept of a leaf node in a tree.
+What is a node's height in a binary tree?
+Define a binary search tree (BST).
+What is a balanced tree?
+What is a hash table?
+Explain the purpose of a linked list in data structures.
+Define dynamic arrays.
+What is the significance of a circular linked list?
+Explain the concept of a doubly linked list.
+What is a stack's primary operation?
+Describe the LIFO property of a stack.
+What is a queue's primary operation?
+Describe the FIFO property of a queue.
+Define the concept of an AVL tree.
+Explain the importance of a balanced binary tree.
+What is an inorder traversal in a binary tree?
+Define a preorder traversal in a binary tree.
+Explain the concept of a postorder traversal in a binary tree.
+What is a depth-first search (DFS) in a graph?
+Define a breadth-first search (BFS) in a graph.
+Explain the purpose of a priority queue.
+What is the difference between a tree and a graph?
+Describe a heap data structure.
+What is the time complexity of searching in a balanced binary search tree?
+What is the main advantage of using a hash table?
+Explain the concept of collision resolution in hash tables.
+Define a linked list node.
+What is a pointer in data structures?
+Describe the importance of a data structure's time complexity.
+What is a doubly linked list's additional feature compared to a singly linked list?
+Explain the concept of a circular queue.
+Define a spanning tree in a graph.
+What is the minimum spanning tree (MST) of a graph?
+Describe the purpose of an array list.
+What is a linked list's space complexity compared to an array?
+Explain the concept of a red-black tree.
+What is a trie data structure used for?
+Define a binary heap.
+What is the purpose of a hash function in a hash table?
+Explain the concept of a binary search algorithm.
+What is the time complexity of searching in a binary search tree?
+Define an undirected graph.
