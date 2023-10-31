@@ -16,11 +16,11 @@ Define Minimum Spanning Tree and explain in detail?
 Discuss the advantages of Binary threaded tree over the binary tree and explain the construction of Binary Threaded Tree with example?
 Discuss the searching algorithm of Graph Data-structure?
 Consider a 3-dimensional array A[2:8, -3:6, 5:10]. The base address of the array is 1000 and the memory required by each element is 2 bytes. Find the address of A[3, 1, 61] using row major representation.Show all the intermediate steps.
-What is Binary Search Tree(BST)? Construct a BST by inserting the following elements in given order. Show all the intermediate steps. {5, 9, 1, 10, 15, 12, 2, 6, 20, 4, 14, 24 
-Write a recursive algorithm for binary search technique to search an element in a given sorted list. Also show the tracing of your algorithm to search an element 9 in the following data.{ 3, 5, 9,12, 17, 23, 36, 53, 65, 78}.	
+What is Binary Search Tree (BST)? Construct a BST by inserting the following elements in given order. Show all the intermediate steps. {5, 9, 1, 10, 15, 12, 2, 6, 20, 4, 14, 24}.
+Write a recursive algorithm for binary search technique to search an element in a given sorted list. Also show the tracing of your algorithm to search an element 9 in the following data. {3, 5, 9,12, 17, 23, 36, 53, 65, 78}.	
 Sort the following data in ascending order using heap sort algorithm. Show all the intermediate steps. {43, 32, 11, 53, 76, 90, 39, 59, 97, 20, 84, 66}
 How can you efficiently find the median of a set of data using data structures?
-Draw a binary expression tree from the given infix expression, Write the pre-order and post-order from the constructed binary expression tree (a*b/c+e/f*g+k-x*y).
+Draw a binary expression tree from the given infix expression, Write the pre-order and post-order from the constructed binary expression tree ( a * b / c + e / f * g + k - x * y ).
 State applications of minimum spanning tree (MST)?
 Differentiate between a linked list and an array.
 Write an algorithm to insert an element at a given position in the doubly linked list.

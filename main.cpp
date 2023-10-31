@@ -130,7 +130,8 @@ public:
 
 int main(int argc, char **argv)
 {
-    int noOfEasy = 0, noOfMedium = 0, noOfHard = 0, time = 0, marks = 0;
+    int noOfEasy = 0, noOfMedium = 0, noOfHard = 0, time = 0;
+    int easyMarks = 0, mediumMarks = 0, hardMarks = 0, totalMarks = 0;
     cout << "----------------Welcome to DS Paper Generator--------------" << endl;
     cout << endl;
     cout << "Please Fill Up the necessary details so we can generated Required Paper Set for you" << endl;
@@ -140,37 +141,45 @@ int main(int argc, char **argv)
 
         while (true)
         {
-            printf("Enter the number of Easy questions: ");
-            cin >> noOfEasy;
+            printf("Enter the number of Easy questions & marks for a easy question: ");
+            cin >> noOfEasy >> easyMarks;
             if (noOfEasy > 25)
             {
                 printf("Please enter number of question from 0 to 25\n");
             }
             else
-
+            {
+                totalMarks += easyMarks * noOfEasy;
                 break;
+            }
         }
         while (true)
         {
             printf("Enter the number of Medium questions: ");
-            cin >> noOfMedium;
+            cin >> noOfMedium >> mediumMarks;
             if (noOfMedium > 25)
             {
                 printf("Please enter number of question from 0 to 25\n");
             }
             else
+            {
+                totalMarks += mediumMarks * noOfMedium;
                 break;
+            }
         }
         while (true)
         {
             printf("Enter the number of Hard questions: ");
-            cin >> noOfHard;
+            cin >> noOfHard >> hardMarks;
             if (noOfHard > 25)
             {
                 printf("Please enter number of question from 0 to 25\n");
             }
             else
+            {
+                totalMarks += hardMarks * noOfHard;
                 break;
+            }
         }
 
         if (noOfEasy + noOfMedium + noOfHard > 40)
@@ -183,15 +192,13 @@ int main(int argc, char **argv)
 
     printf("Enter the total time (hours) alloted to exam: ");
     cin >> time;
-    printf("Enter the total marks: ");
-    cin >> marks;
 
     const char *Line1 = "Nirma University";
     const char *Line2 = "Institute Of Techology";
     const char *Line3 = "B. Tech in Computer Science and Engineering, Semester-III";
     const char *Line4 = "2CS301 Data Structures";
     const char *Line5 = "Roll/Exam no. :-__________                                                         Supervisor's initial: __________";
-    string outline = "Time: " + to_string(time) + " Hours                                                                                 Max. Marks: " + to_string(marks);
+    string outline = "Time: " + to_string(time) + " Hours                                                                                 Max. Marks: " + to_string(totalMarks);
     const char *Line6 = outline.c_str();
     const char *Line7 = "Instructions:   1. Attempt all questions.\n                2. Figures to right indicate full marks.\n                3. Use sectino-wise separate answer book.\n                4. Draw neat sketches wherever necessary\n                5. Assume suitable data wherever necessary and mention them clearly.\n\n";
     const char *Line8 = "_______________________________________________________________________________";
@@ -204,7 +211,7 @@ int main(int argc, char **argv)
     HPDF_REAL width;
     HPDF_UINT i;
 
-        pdf = HPDF_New(error_handler, NULL);
+    pdf = HPDF_New(error_handler, NULL);
     if (!pdf)
     {
         printf("error: cannot create PdfDoc object\n");
@@ -230,6 +237,7 @@ int main(int argc, char **argv)
 
     /* Print the title of the page (with positioning center). */
     def_font = HPDF_GetFont(pdf, "Times-Roman", NULL);
+    HPDF_Font font2 = HPDF_GetFont(pdf, "Times-Bold", NULL);
     HPDF_Page_SetFontAndSize(page, def_font, 28);
 
     height = HPDF_Page_GetHeight(page2); // get the height of the page2
@@ -303,12 +311,11 @@ int main(int argc, char **argv)
 
         if (i < noOfEasy)
             num += q.easy[q.que[i]];
-        else if (i < noOfMedium)
+        else if (i < (noOfEasy + noOfMedium))
             num += q.medium[q.que[i]];
         else
             num += q.hard[q.que[i]];
 
-        HPDF_Font font = HPDF_GetFont(pdf, "Times-Roman", NULL);
         int size = num.size();
 
         vector<string> multilineQ;
@@ -345,32 +352,57 @@ int main(int argc, char **argv)
         if (temp != "")
             t.push_back(temp);
 
+        HPDF_Page tlt = h < 20 ? page2 : page;
+
+        if (noOfEasy != 0 && i == 0)
+        {
+            string level = " Answer the following easy questions:- (Each " + to_string(easyMarks) + " marks)";
+            HPDF_Page_SetFontAndSize(tlt, font2, 14);
+            HPDF_Page_ShowText(tlt, level.c_str());
+            HPDF_Page_MoveTextPos(tlt, 0, -25);
+            h -= 25;
+        }
+        else if (noOfMedium != 0 && i == (noOfEasy))
+        {
+            string level = " Answer the following medium questions:- (Each " + to_string(mediumMarks) + " marks)";
+            HPDF_Page_SetFontAndSize(tlt, font2, 14);
+            HPDF_Page_ShowText(tlt, level.c_str());
+            HPDF_Page_MoveTextPos(tlt, 0, -25);
+            h -= 25;
+        }
+        else if (noOfHard != 0 && i == (noOfEasy + noOfMedium))
+        {
+            string level = " Answer the following hard questions:- (Each " + to_string(hardMarks) + " marks)";
+            HPDF_Page_SetFontAndSize(tlt, font2, 14);
+            HPDF_Page_ShowText(tlt, level.c_str());
+            HPDF_Page_MoveTextPos(tlt, 0, -25);
+            h -= 25;
+        }
+
+        tlt = h < 20 ? page2 : page;
+
         for (int j = 0; j < t.size(); j++)
         {
             if (j != 0)
                 t[j] = "      " + t[j];
+
             const char *question = t[j].c_str();
-            if (h < 20)
-            {
-                HPDF_Page_SetFontAndSize(page2, font, 14);
-                HPDF_Page_ShowText(page2, question);
-                if (j == t.size() - 1)
-                    HPDF_Page_MoveTextPos(page2, 0, -25);
-                else
-                    HPDF_Page_MoveTextPos(page2, 0, -15);
-            }
+
+            HPDF_Page_SetFontAndSize(tlt, def_font, 14);
+            HPDF_Page_ShowText(tlt, question);
+            if (j == t.size() - 1)
+                HPDF_Page_MoveTextPos(tlt, 0, -25);
             else
+                HPDF_Page_MoveTextPos(tlt, 0, -15);
+
+            if (h >= 20)
             {
-                HPDF_Page_SetFontAndSize(page, font, 14);
-                HPDF_Page_ShowText(page, question);
                 if (j == t.size() - 1)
                 {
-                    HPDF_Page_MoveTextPos(page, 0, -25);
                     h -= 25;
                 }
                 else
                 {
-                    HPDF_Page_MoveTextPos(page, 0, -15);
                     h -= 15;
                 }
             }
@@ -381,7 +413,9 @@ int main(int argc, char **argv)
     HPDF_Page_EndText(page2);
 
     /* clean up */
-    HPDF_SaveToFile(pdf, fname);
+    HPDF_STATUS ok = HPDF_SaveToFile(pdf, fname);
     HPDF_Free(pdf);
+    printf("PDF Generated Succefully by name Paper.pdf in the Extisting directory!\n");
+
     return 0;
 }

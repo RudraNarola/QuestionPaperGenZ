@@ -1,0 +1,293 @@
+%PDF-1.3
+%·¾­ª
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [ 4 0 R 7 0 R ]
+/Count 2
+>>
+endobj
+3 0 obj
+<<
+/Producer (Haru Free PDF Library 2.4.4)
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595 841 ]
+/Contents 5 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 10 0 R
+/F2 11 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6 0 R
+>>
+stream
+1 w
+10 10 575 821 re
+S
+/F1 28 Tf
+BT
+199.122 791 Td
+(Nirma University) Tj
+ET
+/F1 18 Tf
+BT
+215.51 771 Td
+(Institute Of Techology) Tj
+ET
+/F1 14 Tf
+BT
+128.56199 756 Td
+(B. Tech in Computer Science and Engineering, Semester-III) Tj
+ET
+/F1 14 Tf
+BT
+229.83799 741 Td
+(2CS301 Data Structures) Tj
+ET
+/F1 14 Tf
+BT
+20 701 Td
+(Roll\057Exam no. :-__________                                                         Supervisor's initial: __________) Tj
+ET
+/F1 14 Tf
+BT
+20 681 Td
+(Time: 3 Hours                                                                                 Max. Marks: 270) Tj
+ET
+/F1 14 Tf
+BT
+20 661 Td
+(_______________________________________________________________________________) Tj
+ET
+BT
+20 621 Td
+/F2 14 Tf
+( Answer the following easy questions:- \050Each 5 marks\051) Tj
+0 -25 Td
+/F1 14 Tf
+(  1. Describe the LIFO property of a stack.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(  2. Explain the concept of a circular queue.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(  3. What is a balanced tree?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(  4. Define a spanning tree in a graph.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(  5. What is a node's height in a binary tree?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(  6. What is the difference between a tree and a graph?\015) Tj
+0 -25 Td
+/F2 14 Tf
+( Answer the following medium questions:- \050Each 8 marks\051) Tj
+0 -25 Td
+/F1 14 Tf
+(  7. Describe the concept of a self-balancing binary search tree and its importance in ) Tj
+0 -15 Td
+/F1 14 Tf
+(      maintaining balance.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(  8. Explain the concept of a splay tree and its applications in data structures.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(  9. Explain how a linked list can be reversed using iterative and recursive methods.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(10. Describe the purpose of a linked list node and its role in various data structures.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(11. How can you implement a queue using two stacks, and why would you do so?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(12. Describe the use of binary search trees in dictionary implementations.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(13. What is the difference between an array and a linked list, and when would you choose ) Tj
+0 -15 Td
+/F1 14 Tf
+(      one over the other?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(14. How does a breadth-first search algorithm work in traversing a graph?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(15. How do you efficiently find the lowest common ancestor of two nodes in a binary tree?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(16. What is a red-black tree, and how does it maintain balance in a binary search tree?\015) Tj
+0 -25 Td
+/F2 14 Tf
+( Answer the following hard questions:- \050Each 10 marks\051) Tj
+0 -25 Td
+/F1 14 Tf
+(17. How does a depth-first search algorithm work in finding connected components in a ) Tj
+0 -15 Td
+/F1 14 Tf
+(      graph?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(18. What is the importance of a red-black tree in maintaining balanced data?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(19. State applications of minimum spanning tree \050MST\051?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(20. Write an algorithm to find that given tree is BST or not? \015) Tj
+0 -25 Td
+ET
+
+endstream
+endobj
+6 0 obj
+3051
+endobj
+7 0 obj
+<<
+/Type /Page
+/MediaBox [ 0 0 595 841 ]
+/Contents 8 0 R
+/Resources <<
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 10 0 R
+>>
+>>
+/Parent 2 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 9 0 R
+>>
+stream
+1 w
+10 10 575 821 re
+S
+/F1 28 Tf
+BT
+20 791 Td
+/F1 14 Tf
+(21. Justify the need of hashing. Discuss any two techniques with a proper example?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(22. What is the time complexity of the most efficient algorithm for finding the shortest ) Tj
+0 -15 Td
+/F1 14 Tf
+(      path in a graph?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(23. Write an algorithm to perform to insertion and deletion middle of linked list?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(24. Describe the concept of a B-tree and its use in database systems.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(25. Describe the use of stacks in expression evaluation.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(26. Write an algorithm to solve the Tower to Hanoi problem?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(27. Convert the following Postfix expression to the Prefix expression using stack?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(28. What is Binary Search Tree \050BST\051? Construct a BST by inserting the following elements ) Tj
+0 -15 Td
+/F1 14 Tf
+(      in given order. Show all the intermediate steps. \1735, 9, 1, 10, 15, 12, 2, 6, 20, 4, 14, ) Tj
+0 -15 Td
+/F1 14 Tf
+(      24\175.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(29. Write a recursive algorithm for binary search technique to search an element in a ) Tj
+0 -15 Td
+/F1 14 Tf
+(      given sorted list. Also show the tracing of your algorithm to search an element 9 in the ) Tj
+0 -15 Td
+/F1 14 Tf
+(      following data. \1733, 5, 9,12, 17, 23, 36, 53, 65, 78\175.\011\015) Tj
+0 -25 Td
+/F1 14 Tf
+(30. Write a algorithm for a Binary Search and discuss it time and space complexity?\015) Tj
+0 -25 Td
+/F1 14 Tf
+(31. Consider a 3-dimensional array A\1332:8, -3:6, 5:10\135. The base address of the array is ) Tj
+0 -15 Td
+/F1 14 Tf
+(      1000 and the memory required by each element is 2 bytes. Find the address of A\1333, 1, 61\135 ) Tj
+0 -15 Td
+/F1 14 Tf
+(      using row major representation.Show all the intermediate steps.\015) Tj
+0 -25 Td
+/F1 14 Tf
+(32. Explain the concept of a linked list's applications in managing large datasets.\015) Tj
+0 -25 Td
+ET
+
+endstream
+endobj
+9 0 obj
+1999
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /StandardEncoding
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /StandardEncoding
+>>
+endobj
+xref
+0 12
+0000000000 65535 f
+0000000015 00000 n
+0000000064 00000 n
+0000000129 00000 n
+0000000190 00000 n
+0000000378 00000 n
+0000003483 00000 n
+0000003503 00000 n
+0000003680 00000 n
+0000005733 00000 n
+0000005753 00000 n
+0000005854 00000 n
+trailer
+<<
+/Root 1 0 R
+/Info 3 0 R
+/Size 12
+>>
+startxref
+5954
+%%EOF
